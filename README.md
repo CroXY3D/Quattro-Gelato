@@ -1,7 +1,9 @@
 # Quattro-Gelato
  A sweet AWD H-Bot
 
- ![Small Image of Quattro Gelato](https://github.com/CroXY3D/Quattro-Gelato/blob/master/Images/QG_Small.png?raw=true)
+ ![Small Image of Quattro Gelato](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Small.png)
+
+ https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Small.png
 
 Quattro Gelato is a fully enclosed AWD 150x300x250 H-BOT printer using The Ice Cream Factory's  Ice Cream Sandwich build technique.
 

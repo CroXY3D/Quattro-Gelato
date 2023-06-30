@@ -15,6 +15,8 @@ Toolhead movement is provided by four 2504 or 2804 Nema17 stepper motors.  This 
 
 The toolhead is all metal except for the part cooling fan duct.  Extruder is the water cooled VzBot Hextrudort CNC paired with a VzBot Goliath Hot End.  The hot end should be able to keep up with the motion system and melt plastic up to ~100mm^3/s (about 8x a V6).  The toolhead center of mass is balanced such that it is nearly centered upon the MGN9 rail.  This will largely eliminate any torsional forces which is a significant source of ringing.  Additionally the MGN9 rail is positioned on the front of the gantry tube, where it provides approximately 3x more stiffness in the Y axis than if it were placed on top of the gantry.
 
+Part cooling is via CPAP and the design is compatible with the many excellent VZBot cooling ducts available.
+
 The bed is 8 or 10mm cast aluminum lifted via 9mm 2GT belts by three 5:1 belt reduced drives.  It features proper Maxwell kinematic joints to allow for bed expansion while constraining other motion and to allow automatic bed leveling.   Bed levelling and mesh probing is done with the very precise Euclid probe.  If bed drop happens on motor power off, constant force springs will be added in the same style as CroXY.
 
 Quattro Gelato is fully enclosed with panels on all sides.  There is room for insulation as well.  It uses the so suave rounded type R. 

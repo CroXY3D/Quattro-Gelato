@@ -3,8 +3,6 @@
 
  ![Small Image of Quattro Gelato](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Small.png)
 
- https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Small.png
-
 Quattro Gelato is a fully enclosed AWD 150x300x250 H-BOT printer using The Ice Cream Factory's  Ice Cream Sandwich build technique.
 
 Ice Cream Sandwiches are parts made of laser cut aluminum (typically 2-3mm) sandwiching a central printed plastic core.  This is similar in construction to ACM panels such as DiBond which have an incredible strength to weight ration.  Nearly all load is carried by the much stiffer aluminum panels (75x as stiff as plastic).  The plastic core is merely to space the panels apart.   Additionally for high load situations aluminum spacers also separate the plates.  It should be possible to have the panels made by PCB houses using 2mm aluminum PCBs for about 20% the cost of laser cutting, making the construction technique very inexpensive

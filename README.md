@@ -13,6 +13,8 @@ With a build volume of 150x300x300, Quattro Gelato has a very short cross gantry
 . 
 Toolhead movement is provided by four 2504 or 2804 Nema17 stepper motors.  This doubles the positioning torque and hence accuracy and precision are improved for better layer stacking.  High acceleration and speed are provided by (optional) 48V TMC5160 drives.
 
+ ![Quattro Gelato Gantry](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Gantry.png)
+
 The toolhead is all metal except for the part cooling fan duct.  Extruder is the water cooled VzBot Hextrudort CNC paired with a VzBot Goliath Hot End.  The hot end should be able to keep up with the motion system and melt plastic up to ~100mm^3/s (about 8x a V6).  The toolhead center of mass is balanced such that it is nearly centered upon the MGN9 rail.  This will largely eliminate any torsional forces which is a significant source of ringing.  Additionally the MGN9 rail is positioned on the front of the gantry tube, where it provides approximately 3x more stiffness in the Y axis than if it were placed on top of the gantry.
 
 Part cooling is via CPAP and the design is compatible with the many excellent VZBot cooling ducts available.

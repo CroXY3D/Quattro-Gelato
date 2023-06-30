@@ -7,9 +7,9 @@ Quattro Gelato is a fully enclosed AWD 150x300x300 H-BOT printer using The Ice C
 
 Ice Cream Sandwiches are parts made of laser cut aluminum (typically 2-3mm) sandwiching a central printed plastic core.  This is similar in construction to ACM panels such as DiBond which have an incredible strength to weight ration.  Nearly all load is carried by the much stiffer aluminum panels (75x as stiff as plastic).  The plastic core is merely to space the panels apart.   Additionally for high load situations aluminum spacers also separate the plates.  It should be possible to have the panels made by PCB houses using 2mm aluminum PCBs for about 20% the cost of laser cutting, making the construction technique very inexpensive
 
-This stiffness allows the design to be an H-Bot vs the more common CoreXY fixed XY motor design without the inherent gantry torque on X moves being an issue.  H-Bot has a number of advantages - a single shorter belt path, single belt allows using wider belts.  In this case 15mm 3mm pitch GT3 belting from Gates US.  3mm GT3 also has a curvelinear profile, which allows for better belt-pulley tooth meshing and should minimize ripple in prints that is endemic to belted 3D Printers.
+This stiffness allows the design to be an H-Bot vs the more common CoreXY fixed XY motor design without the inherent gantry torque on X moves being an issue.  H-Bot has a number of advantages - a single shorter belt path, single belt allows using wider belts.  In this case 15mm 3mm pitch GT3 belting from Gates US.  3mm GT3 also has a curvelinear profile, which allows for better belt-pulley tooth meshing and should minimize ripple in prints that is endemic to belted 3D Printers.  H-BOT was largely ignored due to early blog posts about CoreXY being superior.  And with the construction techniques of the day it was.  With Ice Cream Sandwich construction and all metal where plastic used to be, H-BOT is perfecty valid motion system with significant advantages.
 
- ![Quattro Gelato Gantry](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Belt_Path.png)
+ ![Quattro Gelato Belt Path](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Belt_Path.png)
 
 With a build volume of 150x300x300, Quattro Gelato has a very short cross gantry to maximize stiffness where single gantry printers are weakest. The Y axis is longer because extending Y doesn't have the same penalty in terms of print quality and it's common to print things long and narrow.  Less common for things to be both long and wide.   300mm of Z (easily extended or reduced) is sufficient for 99%+ of the prints I have ever made. 
 
@@ -17,11 +17,11 @@ With a build volume of 150x300x300, Quattro Gelato has a very short cross gantry
 
 The gantry is further stiffened by being constructed out of 2mm wall 25mm square aluminum tube.   This tube has 2.2 times the stiffness as a 2020 extrusion while being the same mass.  
 
- ![Quattro Gelato Gantry](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Motors.png)
+ ![Quattro Gelato Motors](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Motors.png)
 
 Toolhead movement is provided by four 2504 or 2804 Nema17 stepper motors.  This doubles the positioning torque and hence accuracy and precision are improved for better layer stacking.  High acceleration and speed are provided by (optional) 48V TMC5160 drives.
 
- ![Quattro Gelato Gantry](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Toolhead.png)
+ ![Quattro Gelato Toolhead](https://github.com/CroXY3D/Quattro-Gelato/blob/main/Images/QG_Toolhead.png)
  
 The toolhead is all metal except for the part cooling fan duct.  Extruder is the water cooled VzBot Hextrudort CNC paired with a VzBot Goliath Hot End.  The hot end should be able to keep up with the motion system and melt plastic up to ~100mm^3/s (about 8x a V6).  The toolhead center of mass is balanced such that it is nearly centered upon the MGN9 rail.  This will largely eliminate any torsional forces which is a significant source of ringing.  Additionally the MGN9 rail is positioned on the front of the gantry tube, where it provides approximately 3x more stiffness in the Y axis than if it were placed on top of the gantry.
 
